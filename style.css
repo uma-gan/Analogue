@@ -46,7 +46,15 @@ nav ul {
     list-style-type: none;
     gap: 30px;
 }
-
+.menu img {
+    width: 25px;
+}
+.menu {
+    justify-content: center;
+}
+.check {
+    display: none;
+}
 /* PROMO */
 .promo-text {
     font-size: 72px;
@@ -130,6 +138,7 @@ nav ul {
 /* SECTION ONE */
 .one {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
@@ -183,7 +192,9 @@ nav ul {
 .two {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 50px 60px;
+    gap: 50px;
 }
 
 .two-text {
@@ -235,6 +246,27 @@ nav ul {
     font-weight: 400;
     line-height: 50px;
     margin-bottom: 35px;
+}
+.three img {
+ max-width: 95%;
+}
+.container-svg {
+padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+.row-svg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    column-gap: 20px;
+} 
+.card-svg {
+   justify-content: center;
 }
 
 /* FOOTER */

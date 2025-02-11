@@ -1,0 +1,28 @@
+
+@media (max-width: 768px) {
+    .foot-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 695px) {
+    .menu ul {
+     display: none;
+    }
+    .check {
+        display: block;
+    }
+    .check input {
+        position: absolute;
+        top: -50px;
+    }
+}
+
+@media (max-width: 580px) {
+    .promo-text {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}

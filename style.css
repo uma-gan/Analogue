@@ -38,7 +38,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    padding: 10px 50px 80px 50px;
+    /* padding: 10px 50px 80px 50px; */
+    padding: 10px 4vw 80px 4vw;
 }
 
 nav ul {
@@ -46,21 +47,25 @@ nav ul {
     list-style-type: none;
     gap: 30px;
 }
+
 .menu img {
     width: 25px;
 }
+
 .menu {
     justify-content: center;
 }
+
 .check {
     display: none;
 }
+
 /* PROMO */
 .promo-text {
     font-size: 72px;
     font-weight: 700;
     line-height: 90px;
-    margin-left: 50px;
+    margin-left: 4vw;
     max-width: 900px;
     margin-bottom: 60px;
 }
@@ -71,6 +76,7 @@ nav ul {
     justify-content: right;
     margin-bottom: 100px;
     flex-wrap: wrap;
+    margin: 10px;
 }
 
 .promo-pod-text {
@@ -83,21 +89,21 @@ nav ul {
 .gallery-title {
     font-size: 52px;
     font-weight: 400;
-    margin-left: 50px;
+    margin-left: 4vw;
     margin-bottom: 60px;
 }
 
 .gallery-container {
     display: flex;
     justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
-    gap: 50px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    gap: 4vw;
     margin-bottom: 75px;
 }
 
 .btn-one {
-    margin-left: 50px;
+    margin-left: 4vw;
     margin-bottom: 75px;
 }
 
@@ -109,7 +115,7 @@ nav ul {
 .gallery-column {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 5vw;
 }
 
 .gallery-card {
@@ -140,8 +146,8 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 4vw;
+    padding-right: 4vw;
     background-color: rgba(247, 246, 243, 1);
     padding-bottom: 75px;
     padding-top: 75px;
@@ -193,15 +199,15 @@ nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 50px 60px;
-    gap: 50px;
+    margin: 4vw 5vw;
+    gap: 4vw;
 }
 
 .two-text {
     max-width: 672px;
     display: grid;
     grid-template: repeat(2, 1fr / repeat2, 1fr);
-    gap: 50px;
+    gap: 4vw;
 }
 
 .two-main-text {
@@ -247,16 +253,19 @@ nav ul {
     line-height: 50px;
     margin-bottom: 35px;
 }
+
 .three img {
- max-width: 95%;
+    max-width: 95%;
 }
+
 .container-svg {
-padding-top: 30px;
-padding-bottom: 30px;
-display: flex;
-flex-direction: column;
-gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
 }
+
 .row-svg {
     display: flex;
     justify-content: space-around;
@@ -264,9 +273,10 @@ gap: 50px;
     flex-wrap: wrap;
     gap: 20px;
     column-gap: 20px;
-} 
+}
+
 .card-svg {
-   justify-content: center;
+    justify-content: center;
 }
 
 /* FOOTER */
@@ -278,14 +288,14 @@ gap: 50px;
 }
 
 .start hr {
-    margin: 50px 50px 30px 50px;
+    margin: 50px 4vw 30px 4vw;
 }
 
 .container-start {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 4vw 50px 4vw;
 }
 
 .title-start {
@@ -297,14 +307,16 @@ gap: 50px;
 /* FOOT */
 footer {
     background-color: black;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 4vw;
+    padding-right: 4vw;
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .foot-container * {
     color: white;
 }
+
 .foot-container {
     color: rgba(255, 255, 255, 1);
     display: grid;
@@ -312,29 +324,35 @@ footer {
     font-size: 14px;
     font-weight: 400;
 }
+
 .foot-container ul {
-list-style-type: none;
-padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
+
 .foot-title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .foot-title .line {
-width: 70%;
-justify-self: left;
+    width: 70%;
+    justify-self: left;
 }
+
 .foot-list ul {
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
-   justify-self: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-self: left;
 }
+
 .foot-pod {
     align-self: flex-end;
     margin-bottom: 50px;
 }
+
 .foot-pod-logo {
     font-size: 20px;
     font-weight: 400;
